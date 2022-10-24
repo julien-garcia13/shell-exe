@@ -4,4 +4,4 @@
 # Votre script se nommera argument.sh et se lancera de la manière suivante : ./argument.sh myfile.txt copyfile.txt
 touch $1
 cp $2 $1
-echo "Fichier copié!"
+echo "Fichier copié!" # Affiche un message de confirmation.
